@@ -1,4 +1,9 @@
-const vitePluginGA = (options: { id: string; entryNames?: string }) => ({
+import type { PluginOption } from 'vite';
+
+const vitePluginGA = (options: {
+  id: string;
+  entryNames?: string;
+}): PluginOption => ({
   name: 'ga',
   enforce: 'post',
   apply: 'build',
