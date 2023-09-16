@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-ga",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Vite Plugin GA.",
   "main": "lib/cjs/index.js",
   "module": "lib/es/index.js",
